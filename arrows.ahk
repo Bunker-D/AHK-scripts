@@ -6,14 +6,14 @@
 class ArrowListener extends InputHook {
     
     DirKeys := {
-        Right  : "R",
-        Left   : "L",
-        Up     : "U",
-        Down   : "D",
-        PgUp   : "1",
-        PgDn   : "2",
-        RShift : "3",
-        Enter  : "4",
+        Left  : "L", Numpad4 : "L", NumpadLeft  : "L",
+        Right : "R", Numpad6 : "R", NumpadRight : "R",
+        Up    : "U", Numpad8 : "U", NumpadUp    : "U",
+        Down  : "D", Numpad2 : "D", NumpadDown  : "D",
+        PgUp  : "1", Numpad9 : "1", NumpadPgUp  : "1",
+        PgDn  : "2", Numpad3 : "2", NumpadPgDn  : "2",
+        End   : "3", RShift : "3", Numpad1 : "3", NumpadEnd   : "3",
+        Home  : "4", Enter  : "4", Numpad7 : "4", NumpadHome  : "4",
     }
 
     Arrows := {
