@@ -1,7 +1,7 @@
 # <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" height="32px" alt="US Flag"> <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" height="32px" alt="UK Flag">
 
 This repository include a variety of AHK (AutoHotKey) scripts, mostly used to improve typing:
-- [`arrows.ahk`](#arrowsahk): Allows to type a variety of arrows (▶, ↑, ↗, ⤷, ⇒, ⇔, …)
+- [`arrows.ahk`](#arrowsahk): Allows to type a variety of arrows (▼, ↑, ↗, ⤷, ⇒, ⇔, …)
 - [`quote.ahk`](#quoteahk): Allows to type better quotation marks (“”, «  », ‘’…).
 - [`characters.ahk`](#charactersahk): Offers access to some special characters (·, •, ×, æ, …), and extends the capabilities of the French QWERTZ layout for an ANSI keyboard.
 
@@ -34,7 +34,7 @@ You can refer to the [AHK Documentation](https://www.autohotkey.com/docs/v2/). I
 
 ## What the scripts do…
 
-### arrows.ahk
+### `arrows.ahk`
 
 `arrows.ahk` allows to type a variety of arrows by using <kbd>Alt</kbd>+<kbd>A</kbd> and a set of directions:
 1. Press <kbd>Alt</kbd>+<kbd>A</kbd>, do not release the <kbd>Alt</kbd> key.
@@ -72,7 +72,7 @@ In order to cover a wide range of keyboards, different keys can be used for said
 | `↙`       | <kbd>End</kbd> / <kbd>RShift</kbd> / Numpad <kbd>1</kbd> / Numpad <kbd>End</kbd>  |
 | `↖`       | <kbd>Home</kbd> / <kbd>Enter</kbd> / Numpad <kbd>7</kbd> / Numpad <kbd>Home</kbd> |
 
-### quote.ahk
+### `quote.ahk`
 
 `arrows.ahk` allows to easily type quotation marks: “…”, « … », ‘…’.
 
@@ -84,7 +84,7 @@ The available types of quotation are looped through by pressing <kbd>2</kbd> aga
 
 For example, the opening double quote `“` is typed with a simple <kbd>Alt</kbd>+<kbd>2</kbd>, while the closing single quote `’` is type by pressing <kbd>2</kbd> three times in a row while maintaining <kbd>Alt</kbd>+<kbd>Shift</kbd>.
 
-### characters.ahk
+### `characters.ahk`
 
 `characters.ahk` serves two purposes:
 - Offering easy access to some special characters,
@@ -127,9 +127,9 @@ In addition, the following replacement are done when typing:
 # <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" height="32px" alt="Drapeau Français">
 
 Cette archive contient des scripts AHK (AutoHotKey), servant à améliorer l'écriture au clavier :
-- [`arrows.ahk`](#arrowsahk): Permet d'écrire diverses flèches (▶, ↑, ↗, ⤷, ⇒, ⇔, …)
-- [`quote.ahk`](#quoteahk): Permet d'écrire des guillemets (“”, «  », ‘’…).
-- [`characters.ahk`](#charactersahk): Apporte un accès simplifié à certains caractères spéciaux (·, •, ×, æ, …), et complète les capacités d'un clavier ANSI utilisé en QWERTZ.
+- [`arrows.ahk`](#flèches-arrowsahk): Permet d'écrire diverses flèches (▼, ↑, ↗, ⤷, ⇒, ⇔, …)
+- [`quote.ahk`](#guillemets-quoteahk): Permet d'écrire des guillemets (“”, «  », ‘’…).
+- [`characters.ahk`](#autres-caractères-spéciaux-charactersahk): Apporte un accès simplifié à certains caractères spéciaux (·, •, ×, æ, …), et complète les capacités d'un clavier ANSI utilisé en QWERTZ.
 
 ## Utilisation
 
@@ -157,7 +157,7 @@ Vous pouvez vous référer à la [Documentation de AHK](https://www.autohotkey.c
 
 ## Ce que ces scripts font exactement
 
-### Flèches : arrows.ahk
+### Flèches : `arrows.ahk`
 
 `arrows.ahk` permet d'écrire aisément des flèches en utilisant <kbd>Alt</kbd>+<kbd>A</kbd> puis une série de directions :
 1. Appuyez sur <kbd>Alt</kbd>+<kbd>A</kbd>, et maintenez la touche <kbd>Alt</kbd>.
@@ -195,7 +195,7 @@ Pour s'adapter à une large gamme de clavier, différentes touches peuvent être
 | `↙`       | <kbd>End</kbd> / <kbd>RShift</kbd> / Numpad <kbd>1</kbd> / Numpad <kbd>End</kbd>  |
 | `↖`       | <kbd>Home</kbd> / <kbd>Enter</kbd> / Numpad <kbd>7</kbd> / Numpad <kbd>Home</kbd> |
 
-### Guillemets : quote.ahk
+### Guillemets : `quote.ahk`
 
 `arrows.ahk` permet d'écrire aisément les guillemets : “…”, « … », ‘…’.
 
@@ -207,7 +207,7 @@ On boucle parmi les guillemets disponibles en maintenant la touche <kbd>Alt</kbd
 
 Par exemple, on ouvre des guillemets anglais `“` avec un simple <kbd>Alt</kbd>+<kbd>2</kbd>, et on ferme des chevrons ` »` en tapant la touche <kbd>2</kbd> deux fois de suite tout en maintenant <kbd>Alt</kbd>+<kbd>Shift</kbd>.
 
-### Autres caractères spéciaux : characters.ahk
+### Autres caractères spéciaux : `characters.ahk`
 
 `characters.ahk` sert deux buts :
 - Rendre certains caractères spéciaux très accessibles,
