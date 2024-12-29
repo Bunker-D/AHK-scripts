@@ -1,9 +1,9 @@
 # <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" height="32px" alt="US Flag"> <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" height="32px" alt="UK Flag">
 
 This repository include a variety of AHK (AutoHotKey) scripts, mostly used to improve typing:
-- [`arrows.ahk`](#arrowsahk): Allows to type a variety of arrows (▼, ↑, ↗, ⤷, ⇒, ⇔, …)
-- [`quote.ahk`](#quoteahk): Allows to type better quotation marks (“”, «  », ‘’…).
-- [`characters.ahk`](#charactersahk): Offers access to some special characters (·, •, ×, æ, …), and extends the capabilities of the French QWERTZ layout for an ANSI keyboard.
+- [`Arrows.ahk`](#arrowsahk): Allows to type a variety of arrows (▼, ↑, ↗, ⤷, ⇒, ⇔, …)
+- [`Quote.ahk`](#quoteahk): Allows to type better quotation marks (“”, «  », ‘’…).
+- [`Characters.ahk`](#charactersahk): Offers access to some special characters (·, •, ×, æ, …), and extends the capabilities of the French QWERTZ layout for an ANSI keyboard.
 
 ## How to use
 
@@ -34,9 +34,9 @@ You can refer to the [AHK Documentation](https://www.autohotkey.com/docs/v2/). I
 
 ## What the scripts do…
 
-### `arrows.ahk`
+### `Arrows.ahk`
 
-`arrows.ahk` allows to type a variety of arrows by using <kbd>Alt</kbd>+<kbd>A</kbd> and a set of directions:
+`Arrows.ahk` allows to type a variety of arrows by using <kbd>Alt</kbd>+<kbd>A</kbd> and a set of directions:
 1. Press <kbd>Alt</kbd>+<kbd>A</kbd>, do not release the <kbd>Alt</kbd> key.
 2. Press the directions corresponding to the desired arrow (see below).
 3. Release the <kbd>Alt</kbd> key.
@@ -72,9 +72,9 @@ In order to cover a wide range of keyboards, different keys can be used for said
 | `↙`       | <kbd>End</kbd> / <kbd>RShift</kbd> / Numpad <kbd>1</kbd> / Numpad <kbd>End</kbd>  |
 | `↖`       | <kbd>Home</kbd> / <kbd>Enter</kbd> / Numpad <kbd>7</kbd> / Numpad <kbd>Home</kbd> |
 
-### `quote.ahk`
+### `Quote.ahk`
 
-`arrows.ahk` allows to easily type quotation marks: “…”, « … », ‘…’.
+`Quote.ahk` allows to easily type quotation marks: “…”, « … », ‘…’.
 
 Those quotation marks are typed using:
 - <kbd>Alt</kbd>+<kbd>2</kbd> for opening quotation marks,
@@ -84,9 +84,9 @@ The available types of quotation are looped through by pressing <kbd>2</kbd> aga
 
 For example, the opening double quote `“` is typed with a simple <kbd>Alt</kbd>+<kbd>2</kbd>, while the closing single quote `’` is type by pressing <kbd>2</kbd> three times in a row while maintaining <kbd>Alt</kbd>+<kbd>Shift</kbd>.
 
-### `characters.ahk`
+### `Characters.ahk`
 
-`characters.ahk` serves two purposes:
+`Characters.ahk` serves two purposes:
 - Offering easy access to some special characters,
 - Compensating for the lack of keys on an ANSI keyboard when using a QWERTZ layout.
 
@@ -122,6 +122,16 @@ In addition, the following replacement are done when typing:
 
 \* The replacement of `...` into a single character `…` is done only when followed by a non-letter character (space, punctuation, new line…).<br>
 \** When using `,--` to deactivate the replacement into dashes, such deactivation is maintained as long as `-` (and only `-`) are typed, within 1 second of the previous one.
+
+### `AlwayOnTop.ahk`
+
+`AlwayOnTop.ahk` creates the following shortcuts:
+
+| Shortcut                         | Effect                                                        |
+|----------------------------------|---------------------------------------------------------------|
+| <kbd>Win</kbd>+<kbd>PgUp</kbd>   | Keep the active window always on top                          |
+| <kbd>Win</kbd>+<kbd>PgDown</kbd> | Keep the active window always on top, and make it transparent |
+| <kbd>Win</kbd>+<kbd>Del</kbd>    | For the active window, cancel always on top and transparency  |
 
 
 # <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" height="32px" alt="Drapeau Français">
@@ -245,3 +255,14 @@ En plus de cela, les remplacement suivants sont automatiquement opéré lorsque 
 
 \* Le remplacement de `...` en un seul caractère `…` n'est opéré que lorsque suivi d'un caractère n'étant pas une lettre (espace, ponctuation, passage à la ligne…).<br>
 \** Quand on utilise `,--` pour désactiver le replacement des tirets, cette désactivation est maintenue tant que l'on tape des `-` (et uniquement des `-`), au plus 1 seconde après le `-` précédent.
+
+
+### Fenêtre toujours devant : `AlwayOnTop.ahk`
+
+`AlwayOnTop.ahk` crée les raccourcis suivants :
+
+| Raccourci                        | Effet                                                               |
+|----------------------------------|---------------------------------------------------------------------|
+| <kbd>Win</kbd>+<kbd>PgUp</kbd>   | Garder la fenêtre active toujours devant                            |
+| <kbd>Win</kbd>+<kbd>PgDown</kbd> | Garder la fenêtre active toujours devant, et la rendre transparente |
+| <kbd>Win</kbd>+<kbd>Del</kbd>    | Pour la fenêtre, annuler toujours devant et transparance            |
