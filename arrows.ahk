@@ -1,6 +1,11 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
+;@Ahk2Exe-SetMainIcon icons\Arrows.ico
+;@Ahk2Exe-AddResource icons\Arrows_off.ico, 206
+;@Ahk2Exe-AddResource icons\Arrows_off.ico, 207
+;@Ahk2Exe-AddResource icons\Arrows_off.ico, 208
+
 !a:: ArrowListener().Start()
 
 class ArrowListener extends InputHook {

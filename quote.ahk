@@ -1,6 +1,10 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
+;@Ahk2Exe-SetMainIcon icons\Quote.ico
+;@Ahk2Exe-AddResource icons\Quote_off.ico, 206
+;@Ahk2Exe-AddResource icons\Quote_off.ico, 207
+;@Ahk2Exe-AddResource icons\Quote_off.ico, 208
 
 !2:: QuoteListener(false).Start()
 !+2:: QuoteListener(true).Start()
