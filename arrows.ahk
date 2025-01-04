@@ -22,7 +22,7 @@ class ArrowListener extends InputHook {
     }
 
     Arrows := {
-        L   : "◀", R   : "▶", U   : "▲", D   : "▼",
+        L   : "◂", R   : "▸", U   : "▴", D   : "▾",
         LL  : "←", RR  : "→", UU  : "↑", DD  : "↓",
         LLL : "⇐", RRR : "⇒", UUU : "⇑", DDD : "⇓",
         1   : "↗", 2   : "↘", 3   : "↙", 4   : "↖",
